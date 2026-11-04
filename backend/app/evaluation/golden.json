@@ -1,0 +1,22 @@
+[
+  {"category":"factual_retrieval","question":"What exact timeout threshold is specified?","expected":"timeout"},
+  {"category":"semantic_paraphrase","question":"Which system handles queued background work?","expected":"worker"},
+  {"category":"multi_document_synthesis","question":"Summarize the evidence across the uploaded reports.","expected":"source"},
+  {"category":"follow_up_context","question":"What caused that?","expected":"cause"},
+  {"category":"insufficient_evidence","question":"What is the CEO's home address?","expected":"abstain"},
+  {"category":"contradictory_evidence","question":"Which sources disagree about the configuration?","expected":"conflict"},
+  {"category":"factual_retrieval","question":"What is the maximum upload size?","expected":"25 MB"},
+  {"category":"semantic_paraphrase","question":"How are passages split into overlapping segments?","expected":"chunk"},
+  {"category":"multi_document_synthesis","question":"Compare recommendations from all sources.","expected":"source"},
+  {"category":"follow_up_context","question":"And what should happen next?","expected":"follow-up"},
+  {"category":"insufficient_evidence","question":"What will the stock price be tomorrow?","expected":"abstain"},
+  {"category":"contradictory_evidence","question":"Identify inconsistent claims in the evidence.","expected":"conflict"},
+  {"category":"factual_retrieval","question":"Which formats can be uploaded?","expected":"PDF TXT MD CSV"},
+  {"category":"semantic_paraphrase","question":"Find the reference for an exact error identifier.","expected":"keyword"},
+  {"category":"multi_document_synthesis","question":"What patterns recur in the documents?","expected":"analysis"},
+  {"category":"follow_up_context","question":"Can you explain that further?","expected":"context"},
+  {"category":"insufficient_evidence","question":"What is not documented here?","expected":"abstain"},
+  {"category":"contradictory_evidence","question":"Do any documents provide different values?","expected":"conflict"},
+  {"category":"factual_retrieval","question":"How are source pages cited?","expected":"page"},
+  {"category":"semantic_paraphrase","question":"What protects against instructions hidden in uploaded files?","expected":"untrusted"}
+]
